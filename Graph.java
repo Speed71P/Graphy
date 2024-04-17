@@ -16,7 +16,7 @@ public class Graph {
         return 5; // equation x = 5
     }
 
-    public boolean[] getyBand(int x) {
+    public boolean[] getYBand(int x) {
         boolean[] boolArray = new boolean[];
         for (int i = yMin; i < yMax; i++) {
             boolArray[i] = false;
