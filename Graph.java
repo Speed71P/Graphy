@@ -15,4 +15,14 @@ public class Graph {
     private int f(int x) {
         return 5; // equation x = 5
     }
+
+    public boolean[] getyBand(int x) {
+        boolean[] boolArray = new boolean[];
+        for (int i = yMin; i < yMax; i++) {
+            boolArray[i] = false;
+        }
+        if (f(x) >= yMin && f(x) <= yMax) {
+            boolArray[f(x)] = true;
+        }
+    }
 }
