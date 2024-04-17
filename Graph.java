@@ -10,4 +10,9 @@ public class Graph {
         this.yMin = yMin;
         this.yMax = yMax;
     }
+
+    // function to be graphed
+    private int f(int x) {
+        return 5; // equation x = 5
+    }
 }
